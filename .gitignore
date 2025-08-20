@@ -1,0 +1,2 @@
+ext_files/*
+!ext_files/your_files_here

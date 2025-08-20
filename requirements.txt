@@ -1,0 +1,19 @@
+# Core Libraries
+torch
+
+# Transformers library
+transformers==4.46.3            # Hugging Face's Transformers library
+huggingface_hub
+accelerate                      # For managing model parallelization and optimization
+
+# Plugin and tool dependencies
+requests                        # Allows HTTP requests, useful for testing plugin communication
+numpy                           # For data processing and model support
+
+# Logging and debugging
+loguru                          # Simple and elegant logging for better debug output
+
+# Requirements for training
+datasets                        # Needed for Hugging Face's training api
+pynvml                          # Library that allows us to query free gpu memory
+deepspeed                       # Helps for Multi-GPU training
